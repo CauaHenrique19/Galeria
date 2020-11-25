@@ -12,6 +12,15 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+h1{
+    margin: 0;
+    color: #fafafa;
 }
 .container{
     height: 100vh;
@@ -84,5 +93,90 @@ img{
 .description-container{
     width: 30%;
     height: 100%;
-    background-color: white;
+}
+.header-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 40px 15px 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(148, 148, 148, 0.404);
+}
+.interactions-container{
+    display: flex;
+    align-items: center;
+}
+.coment, .like{
+    display: flex;
+    align-items: center;
+}
+.like{
+    margin-right: 30px;
+}
+.interactions-container button{
+    background-color: initial;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.interactions-container p{
+    color: #fafafa;
+    font-size: 1.5rem;
+}
+.content p{
+    margin: 0px 40px;
+    color: #fafafa;
+    text-align: justify;
+    line-height: 22px;
+}
+.coments-container{
+    display: flex;
+    flex-direction: column;
+}
+.header-coment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px 15px 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(148, 148, 148, 0.404);
+}
+.header-coment ion-icon{
+    cursor: pointer;
+}
+.coments{
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.comentary{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #282A36;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.header-comentary{
+    display: flex;
+    margin: 10px 20px;
+}
+.info-comentary h2, .info-comentary p{
+    color: #fafafa;
+}
+.user-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.content-coment{
+    margin: 0 20px 10px 20px;
+}
+.content-coment p{
+    color: #fafafa;
 }

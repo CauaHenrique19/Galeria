@@ -1,28 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Galeria</title>
 </head>
+
 <body>
     <div class="container">
         <div class="image-container">
             <div class="view-image">
-                <img class="image-gallery" src="./images/pexels-bryant's-juarez-5565396.jpg" alt="nada" >
-                <div class="previous"><ion-icon name="chevron-back-outline"></ion-icon></div>
-                <div class="next"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                <img class="image-gallery" src="./images/pexels-bryant's-juarez-5565396.jpg" alt="nada">
+                <div class="previous">
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="next">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
                 <div class="miniatures-images"></div>
             </div>
         </div>
         <div class="description-container">
-
+            <div class="header-description">
+                <h1>Título</h1>
+                <div class="interactions-container">
+                    <div class="like">
+                        <button class="btn-like">
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+                        <p>15</p>
+                    </div>
+                    <div class="coment">
+                        <button class="btn-coment">
+                            <ion-icon name="chatbox-outline"></ion-icon>
+                        </button>
+                        <p>15</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+            </div>
+            <div class="coments-container">
+                <div class="header-coment">
+                    <h1>Comentários</h1>
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <div class="coments">
+                    <div class="comentary">
+                        <div class="header-comentary">
+                            <img class="user-image" src="./assets/default-user-image.png" alt="Nome do usuário">
+                            <div class="info-comentary">
+                                <h2>Nome do usuário</h2>
+                                <p>25/11/2020 às 15:08</p>
+                            </div>
+                        </div>
+                        <div class="content-coment">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comentary">
+                        <div class="header-comentary">
+                            <img class="user-image" src="./assets/default-user-image.png" alt="Nome do usuário">
+                            <div class="info-comentary">
+                                <h2>Nome do usuário</h2>
+                                <p>25/11/2020 às 15:08</p>
+                            </div>
+                        </div>
+                        <div class="content-coment">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

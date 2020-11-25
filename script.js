@@ -10,6 +10,10 @@ let images = [
     { id: 9, path: "./images/pexels-edoardo-tommasini-2034851.jpg" },
     { id: 10, path: "./images/pexels-mohamed-almari-1485894.jpg" },
     { id: 11, path: "./images/pexels-ricardo-esquivel-2627063.jpg" },
+    { id: 12, path: "./images/pexels-fábio-nuno-4272478.jpg" },
+    { id: 13, path: "./images/pexels-florencia-potter-351283.jpg" },
+    { id: 14, path: "./images/pexels-vinícius-pimenta-311627.jpg" },
+    { id: 15, path: "./images/pexels-peng-liu-169647.jpg" },
 ]
 
 document.querySelector('.miniatures-images').innerHTML = 
