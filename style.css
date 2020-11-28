@@ -103,6 +103,7 @@ h1{
 }
 .header-description{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 50px 40px 15px 40px;
@@ -186,4 +187,21 @@ h1{
 }
 .content-coment p{
     color: #fafafa;
+}
+@media(max-width: 1360px){
+    .container{
+        height: auto;
+        flex-direction: column;
+    }
+    .image-container{
+        height: 100vh;
+    }
+    .description-container{
+        width: 100%;
+    }
+}
+@media(max-width: 919px){
+    .miniatures-images{
+        display: none;
+    }
 }
